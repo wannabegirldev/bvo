@@ -70,9 +70,9 @@
         Y.on('click', function(e) {
           if (!e.target.getAttribute('href')) {
             nav.toggleClass('sqs-mobile-nav-open');
-            Y.one('body').toggleClass('sqs-mobile-nav-open');
+            Y.one('body').toggleClass('sqs-mobile-nav-open'));
           }
-        }, '#mobile-navigation-label');
+        },
       }
     });
   });
